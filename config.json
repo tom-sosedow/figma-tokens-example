@@ -11,41 +11,41 @@
       ]
     },
     "compose": {
-      "transformGroup": 'compose',
-      "buildPath": 'compose/',
+      "transformGroup": "compose",
+      "buildPath": "compose/",
       "files": [
         {
-          "destination": 'StyleDictionaryColor.kt',
-          "format": 'compose/object',
-          "className": 'StyleDictionaryColor',
-          "packageName": 'StyleDictionaryColor',
+          "destination": "StyleDictionaryColor.kt",
+          "format": "compose/object",
+          "className": "StyleDictionaryColor",
+          "packageName": "StyleDictionaryColor",
           "filter": {
             "attributes": {
-              "category": 'color'
+              "category": "color"
             }
           }
         },
         {
-          "destination": 'StyleDictionarySize.kt',
-          "format": 'compose/object',
-          "className": 'StyleDictionarySize',
-          "packageName": 'StyleDictionarySize',
-          "type": 'float',
+          "destination": "StyleDictionarySize.kt",
+          "format": "compose/object",
+          "className": "StyleDictionarySize",
+          "packageName": "StyleDictionarySize",
+          "type": "float",
           "filter": {
             "attributes": {
-              "category": 'size'
+              "category": "size"
             }
           }
         },
         {
-          "destination": 'StyleDictionaryRadii.kt',
-          "format": 'compose/object',
-          "className": 'StyleDictionaryRadii',
-          "packageName": 'StyleDictionaryRadii',
-          "type": 'float',
+          "destination": "StyleDictionaryRadii.kt",
+          "format": "compose/object",
+          "className": "StyleDictionaryRadii",
+          "packageName": "StyleDictionaryRadii",
+          "type": "float",
           "filter": {
             "attributes": {
-              "category": 'radii'
+              "category": "radii"
             }
           }
         }
@@ -54,4 +54,3 @@
   
   }
 }
-
