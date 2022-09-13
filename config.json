@@ -1,5 +1,5 @@
 {
-  "source": ["tokens/**/*.json"],
+  "source": ["tokens/*.json"],
   "platforms": {
     "css": {
       "transformGroup": "css",
@@ -9,6 +9,49 @@
           "format": "css/variables"
         }
       ]
+    },
+    "compose": {
+      "transformGroup": 'compose',
+      "buildPath": 'compose/',
+      "files": [
+        {
+          "destination": 'StyleDictionaryColor.kt',
+          "format": 'compose/object',
+          "className": 'StyleDictionaryColor',
+          "packageName": 'StyleDictionaryColor',
+          "filter": {
+            "attributes": {
+              "category": 'color'
+            }
+          }
+        },
+        {
+          "destination": 'StyleDictionarySize.kt',
+          "format": 'compose/object',
+          "className": 'StyleDictionarySize',
+          "packageName": 'StyleDictionarySize',
+          "type": 'float',
+          "filter": {
+            "attributes": {
+              "category": 'size'
+            }
+          }
+        },
+        {
+          "destination": 'StyleDictionaryRadii.kt',
+          "format": 'compose/object',
+          "className": 'StyleDictionaryRadii',
+          "packageName": 'StyleDictionaryRadii',
+          "type": 'float',
+          "filter": {
+            "attributes": {
+              "category": 'radii'
+            }
+          }
+        }
+      ] 
     }
+  
   }
 }
+
