@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 13 Sep 2022 10:56:32 GMT
+ * Generated on Tue, 13 Sep 2022 11:19:56 GMT
  */
 
 :root {
@@ -204,4 +204,5 @@
   --low: 8;
   --thin: 0.5;
   --thick: 1;
+  --test: #d3bebe;
 }

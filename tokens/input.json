@@ -1186,5 +1186,9 @@
     "value": 1,
     "type": "borderWidth",
     "description": "Button (Center Border)"
+  },
+  "test": {
+    "value": "#d3bebe",
+    "type": "color"
   }
 }
