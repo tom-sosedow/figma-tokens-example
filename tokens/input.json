@@ -1183,7 +1183,7 @@
       "description": "Button (Center Border)"
     },
     "tomTest": {
-      "value": "{Permanent.Primary}",
+      "value": "{color.Permanent.Primary}",
       "type": "color"
     }
   },
