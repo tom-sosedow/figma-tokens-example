@@ -1,7 +1,7 @@
 
 
 // Do not edit directly
-// Generated on Wed, 14 Sep 2022 10:37:59 GMT
+// Generated on Wed, 14 Sep 2022 13:51:52 GMT
 
 
 
@@ -159,4 +159,5 @@ object StyleDictionaryColor {
   val colorTextLowLight = Color(0xffb2b2b2)
   val colorTextMediumDark = Color(0xffe0e5e5)
   val colorTextMediumLight = Color(0xff08282b)
+  val colorTomTest = Color(0xff009aa8)
 }
