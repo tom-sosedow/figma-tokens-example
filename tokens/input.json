@@ -1181,6 +1181,10 @@
       "value": "1",
       "type": "borderWidth",
       "description": "Button (Center Border)"
+    },
+    "tomTest": {
+      "value": "{Permanent.Primary}",
+      "type": "color"
     }
   },
   "$themes": [],
