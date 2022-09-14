@@ -16,8 +16,7 @@ module.exports= {
      */
     transformTokens: function(json) {
         let returnvalue = {};
-          
-        var tokenList = recursiveDive("", json);
+        var tokenList = recursiveDive("", json[Object.keys(json)[0]]);
         let unmerged = buildTokens(cleanNames(tokenList));
         unmerged.forEach(obj => {
             _.merge(returnvalue, obj);
