@@ -18,5 +18,5 @@ jobs:
         with:
           data: '{"event_type":"update-tokens", "client_payload": "{"test": "test"}"}'
           webhook_url: "https://api.github.com/repos/tom-sosedow/foo-projekt/dispatches"
-          options: '-H \"Accept: application/vnd.github.everest-preview+json\" -H \"Authorization: token ${{ secrets.AUTH_TOKEN }}\"'
+          options: '-H "Accept: application/vnd.github.everest-preview+json" -H "Authorization: token ${{ secrets.AUTH_TOKEN }}"'
 
