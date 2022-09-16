@@ -13,11 +13,10 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update Tokens
-      - run: cat ${{ github.event }}
       - name: Webhook
         uses: zzzze/webhook-trigger@master
         with:
-          data: ${{ github.event }}
+          data: ${{ toJSON(github.event) }}
           webhook_url: "https://api.github.com/repos/tom-sosedow/foo-projekt/dispatches"
           options: '-H "Accept: application/vnd.github.everest-preview+json" -H "Authorization: token ${{ secrets.AUTH_TOKEN }}"'
 
