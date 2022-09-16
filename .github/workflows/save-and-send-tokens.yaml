@@ -1,0 +1,19 @@
+name: SENDTokens
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update Tokens
+      - name: Webhook
+        uses: zzzze/webhook-trigger@master
+        with:
+          data: '{"event_type":"update-tokens", "client_payload": "{"test": "test"}"}'
+          webhook_url: "https://api.github.com/repos/tom-sosedow/figma-tokens-example/dispatches"
+          options: "-H \"Accept: application/vnd.github.everest-preview+json\" -H \"Authorization: token ${{ secrets.GITHUB_TOKEN }}\""
+}
