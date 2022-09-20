@@ -11,10 +11,11 @@ jobs:
         with:
           commit_message: Update Tokens
       - run: foo=$(cat tokens/input.json | sed 's/"/\\"/g')
+      - run: bar='{"event_type":"update-tokens","client_payload":{"tokens":"$foo"}}'
       - name: Webhook
         uses: zzzze/webhook-trigger@master
         with:
-          data: '{"event_type": "update-tokens","client_payload": {"tokens":"$foo"}}'
+          data: $bar
           webhook_url: "https://api.github.com/repos/tom-sosedow/foo-projekt/dispatches"
           options: '-H "Accept: application/vnd.github.everest-preview+json" -H "Authorization: token ${{ secrets.AUTH_TOKEN }}"'
 
