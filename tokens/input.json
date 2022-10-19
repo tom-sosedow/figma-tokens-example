@@ -1,20 +1,22 @@
 {
   "global": {
-    "red": {
-      "value": "#F52321",
-      "type": "color"
-    },
-    "yellow": {
-      "value": "#EFF22E",
-      "type": "color"
-    },
-    "blue": {
-      "value": "#2433BC",
-      "type": "color"
-    },
-    "green": {
-      "value": "#208201",
-      "type": "color"
+    "color": {
+      "primary": {
+        "value": "#e7a134",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "#8cebff",
+        "type": "color"
+      },
+      "background": {
+        "value": "{color.white}",
+        "type": "color"
+      },
+      "white": {
+        "value": "#fff",
+        "type": "color"
+      }
     }
   },
   "$themes": [],
