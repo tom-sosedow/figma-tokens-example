@@ -4,8 +4,9 @@ module.exports = {
     pattern: /\.json$/,
     parse: ({ filePath, contents }) => {
       let json = JSON.parse(contents);
-      let converter = require('./transformTokens.js')
-      return converter.transformTokens(json)
+      return json;
+      //let converter = require('./transformTokens.js')
+      //return converter.transformTokens(json)
     }
   }],
   platforms: {
