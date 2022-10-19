@@ -2,7 +2,7 @@
   "global": {
     "color": {
       "primary": {
-        "value": "#e7a134",
+        "value": "#801a93",
         "type": "color"
       },
       "secondary": {
@@ -10,11 +10,15 @@
         "type": "color"
       },
       "background": {
-        "value": "{color.white}",
+        "value": "{color.darkgrey}",
         "type": "color"
       },
       "white": {
         "value": "#fff",
+        "type": "color"
+      },
+      "darkgrey": {
+        "value": "#2f2f2f",
         "type": "color"
       }
     }
