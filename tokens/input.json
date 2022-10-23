@@ -10,7 +10,7 @@
         "type": "color"
       },
       "background": {
-        "value": "{color.darkgrey}",
+        "value": "{color.white}",
         "type": "color"
       },
       "white": {
@@ -20,6 +20,16 @@
       "darkgrey": {
         "value": "#2f2f2f",
         "type": "color"
+      },
+      "font": {
+        "light": {
+          "value": "#eaeaea",
+          "type": "color"
+        },
+        "dark": {
+          "value": "#101010",
+          "type": "color"
+        }
       }
     }
   },
