@@ -2,7 +2,7 @@
   "global": {
     "color": {
       "primary": {
-        "value": "#801a93",
+        "value": "#48a03d",
         "type": "color"
       },
       "secondary": {
@@ -10,7 +10,7 @@
         "type": "color"
       },
       "background": {
-        "value": "{color.white}",
+        "value": "{color.darkgrey}",
         "type": "color"
       },
       "white": {
@@ -30,6 +30,12 @@
           "value": "#101010",
           "type": "color"
         }
+      }
+    },
+    "spacing": {
+      "small": {
+        "value": "20",
+        "type": "spacing"
       }
     }
   },
