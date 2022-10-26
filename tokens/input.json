@@ -30,6 +30,10 @@
           "value": "#101010",
           "type": "color"
         }
+      },
+      "red": {
+        "value": "#ff2323",
+        "type": "color"
       }
     }
   },
