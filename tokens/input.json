@@ -2,7 +2,7 @@
   "global": {
     "color": {
       "primary": {
-        "value": "{color.purple}",
+        "value": "{color.green}",
         "type": "color"
       },
       "secondary": {
@@ -10,7 +10,7 @@
         "type": "color"
       },
       "background": {
-        "value": "{color.white}",
+        "value": "{color.darkgrey}",
         "type": "color"
       },
       "white": {
@@ -37,6 +37,10 @@
       },
       "cyan": {
         "value": "#1ce6ff",
+        "type": "color"
+      },
+      "green": {
+        "value": "#77e535",
         "type": "color"
       }
     }
